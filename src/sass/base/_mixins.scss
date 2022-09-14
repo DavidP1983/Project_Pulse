@@ -1,0 +1,5 @@
+@mixin btn_hover {
+    &:hover {
+        box-shadow: 3px 3px 27px #fff;
+    }
+}

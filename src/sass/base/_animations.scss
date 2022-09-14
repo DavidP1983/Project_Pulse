@@ -1,0 +1,44 @@
+@keyframes heartbeat {
+    from {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.4);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes footstep {
+    0% {
+        transform: skewY(0deg);
+    }
+    50% {
+        transform: skewY(-45deg);
+    }
+    80% {
+        transform: skewY(-25deg);
+    }
+    90% {
+        transform: skewY(-10deg);
+    }
+    100% {
+        transform: skewY(0deg);
+    }
+}
+
+@keyframes cup {
+    from {
+        transform: scaleX(-1);
+    }
+    50% {
+        transform: scaleX(0.5);
+    }
+    80% {
+        transform: scaleX(0.8);
+    }
+    to {
+        transform: scaleX(1);
+    }
+}

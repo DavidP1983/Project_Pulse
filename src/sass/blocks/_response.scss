@@ -1,0 +1,51 @@
+.response {
+    padding-bottom: 48px;
+    min-height: 920px;
+    &__block {
+        display: flex;
+        flex-direction: column;
+
+    }
+    &__content {
+        margin-top: 60px;
+        display: flex;
+        align-items: flex-start;
+    }
+    &__client {
+        width: 169px;
+        height: 169px;
+        img {
+            width: 100%;
+        }
+    }
+    &__descr {
+        width: 686px;
+        margin-left: 61px;
+
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 18px;
+        color: #0D0D0D;
+    }
+    h5{
+        font-weight: 500;
+        font-size: 14px;
+        color: #646464;
+        // Чтоб убрать лишний отступ снизу который тянеться с тега h5
+        margin-bottom: 0; 
+    }
+    &__subtitle {
+        margin-top: 10px;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        color: #0D0D0D;
+        span {
+            margin-top: 24px;
+            display: block;
+        }
+    }
+   
+   
+}
